@@ -3,8 +3,8 @@ import './App.css'
 import PokemonCard from './components/PokemonCard'
 
 function App() {
-  const [pokemonn, setPokemonn] = useState(null)
-  const [serchTerm, setSerchTerm] = useState('')
+  const [pokemon, setPokemon] = useState(null)
+  const [searchTerm, setSearchTerm] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
 
@@ -111,4 +111,4 @@ function App() {
 }
 
 export default App
-// bug crítico: falta fechar algo? Verificar sintaxe completa
+
